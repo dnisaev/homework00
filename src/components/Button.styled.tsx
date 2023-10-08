@@ -31,7 +31,4 @@ export const Button = styled.button<ButtonPropsType>`
       background-color: ${mainTheme.colors.black};
     }
   }
-
-
-
 `

@@ -45,5 +45,4 @@ export const Card = styled.div`
     font-size: 10px;
     line-height: 20px;
   }
-
 `
