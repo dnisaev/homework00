@@ -18,7 +18,7 @@ export const Button = styled.button<ButtonPropsType>`
   &:hover {
     border: 2px solid ${mainTheme.colors.blue};
     color: ${mainTheme.colors.blue};
-    background-color: ${mainTheme.colors.black};
+    background-color: ${mainTheme.colors.transparent};
   }
 
   &:last-child {
@@ -28,7 +28,7 @@ export const Button = styled.button<ButtonPropsType>`
 
     &:hover {
       color: ${mainTheme.colors.white};
-      background-color: ${mainTheme.colors.black};
+      background-color: ${mainTheme.colors.blue};
     }
   }
 `
