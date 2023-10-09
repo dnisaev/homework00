@@ -11,7 +11,8 @@ function App() {
             <Card>
                 <img src={mainPicture} alt={"Hero"}/>
                 <h3>Headline</h3>
-                <p>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</p>
+                <p>Faucibus. Faucibus. Sit sit sapien sit
+                    tempusrisu ut. Sit molestie ornare in venen.</p>
                 <Button background={mainTheme.colors.blue}>See more</Button>
                 <Button background={mainTheme.colors.transparent}>Save</Button>
             </Card>

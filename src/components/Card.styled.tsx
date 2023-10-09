@@ -3,7 +3,6 @@ import {mainTheme} from "../styles/Theme";
 
 export const Card = styled.div`
   padding: 10px;
-  display: block;
   width: 280px;
   height: 330px;
   background-color: ${mainTheme.colors.white};
@@ -14,24 +13,18 @@ export const Card = styled.div`
   img {
     width: 280px;
     height: 170px;
-    border-radius: 10px;
   }
 
   h3 {
-    width: 70px;
     margin-top: 20px;
     margin-left: 10px;
-    font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
   }
 
   p {
-    width: 260px;
-    height: 40px;
+    width: 256px;
     margin-top: 20px;
     margin-left: 10px;
-    font-weight: 500;
     font-size: 12px;
     line-height: 20px;
     color: ${mainTheme.colors.grey}

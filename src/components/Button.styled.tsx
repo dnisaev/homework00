@@ -11,7 +11,6 @@ export const Button = styled.button<ButtonPropsType>`
   border-radius: 5px;
   width: 86px;
   height: 30px;
-  font-family: "Inter", sans-serif;
   color: ${mainTheme.colors.white};
   background-color: ${props => props.background};
 
