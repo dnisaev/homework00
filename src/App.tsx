@@ -5,6 +5,7 @@ import {Button} from "./components/Button.styled";
 import {Card} from "./components/Card.styled";
 import mainPicture from "./images/hero.jpg";
 // import TestComponent from "./components/TestComponents";
+// import AppClassComponent from './AppClassComponent';
 
 
 const textFirst = "Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.";
@@ -14,14 +15,14 @@ function App() {
     const [text, setText] = useState(textFirst)
 
     useEffect(() => {
-
-    }, [])
+        alert("Перевожу текст на русский язык")
+    }, [text])
 
     // const onButtonClick = () => {
     //     alert('Всем привет!');
     // }
 
-    const onChangeText = () => setText('Всем пока');
+    const onChangeText = () => setText('Здесь должен быть перевод, но его нет :(');
 
     const onChangeFirstText = () => setText(textFirst);
 
@@ -32,10 +33,11 @@ function App() {
                 <h3>Headline</h3>
                 <p>{text}</p>
                 {/*<Button background={mainTheme.colors.blue} onClick={onButtonClick}>See more</Button>*/}
-                <Button background={mainTheme.colors.blue} onClick={onChangeFirstText}>See</Button>
-                <Button background={mainTheme.colors.transparent} onClick={onChangeText}>Save</Button>
+                <Button background={mainTheme.colors.blue} onClick={onChangeText}>Перевести</Button>
+                <Button background={mainTheme.colors.transparent} onClick={onChangeFirstText}>Вернуть</Button>
             </Card>
             {/*<TestComponent />*/}
+            {/*<AppClassComponent />*/}
         </Album>
     );
 }
