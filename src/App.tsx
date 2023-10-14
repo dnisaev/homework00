@@ -15,14 +15,14 @@ function App() {
     const [text, setText] = useState(textFirst)
 
     useEffect(() => {
-        alert("Перевожу текст на русский язык")
+        alert("Перевожу текст на другой язык")
     }, [text])
 
     // const onButtonClick = () => {
     //     alert('Всем привет!');
     // }
 
-    const onChangeText = () => setText('Здесь должен быть перевод, но его нет :(');
+    const onChangeText = () => setText('Простите, но я не смог перевести данный текст :(');
 
     const onChangeFirstText = () => setText(textFirst);
 
