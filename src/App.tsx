@@ -30,7 +30,7 @@ function App() {
         <Album>
             <Card>
                 <img src={mainPicture} alt={"Hero"}/>
-                <h3>Headline</h3>
+                <h3>Переводчик</h3>
                 <p>{text}</p>
                 {/*<Button background={mainTheme.colors.blue} onClick={onButtonClick}>See more</Button>*/}
                 <Button background={mainTheme.colors.blue} onClick={onChangeText}>Перевести</Button>
